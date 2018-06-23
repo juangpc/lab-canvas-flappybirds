@@ -7,6 +7,12 @@ body h1 {
   text-transform: uppercase;
 }
 
+
+.img-logo{
+  width:50%;
+   text-align: center;
+}
+
 body button {
   font-size: 20px;
   background-color: black;
@@ -17,3 +23,15 @@ body button {
   border-radius: 5px;
   margin-bottom: 20px;
 }
+
+#canvas{
+  border:2px solid red;
+}
+
+
+
+
+
+
+
+

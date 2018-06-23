@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,10 +11,34 @@
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
+
 <body>
-  <img src="./images/logo.png" alt="" style="width:50%;">
+  <img class="img-logo" src="./images/logo.png" alt="">
   <br>
   <button id="start-button">StartGame</button>
-  <div id="game-board"></div>
+  <div id="game-board">
+    <canvas id="canvas" width="900" height="504"></canvas>
+  </div>
 </body>
+
 </html>
+
+
+<!-- 
+ - para que necesitamos speedY? parece más una propiedad del juego no?
+
+ - preguntar si es recursiva la llamada 
+
+ - paraqué lo de gravitySpeed?
+
+ - creo que la propiedad change gravity puede obviarse a través de la propia funcionalidad.
+
+ aplico el principio de Simple Responsability Principle, cada clase se ocupa solo de una 
+ cosa y sus métodos una cosa y solo una cosa. çand try not to repeat code.
+
+ - hago el canvas exactamente de la medida en pixels de la imagen de fondo. Supongo que esto
+ no puede hacer daño.
+
+ - hay que poner imagen hasta que jueo esté cargado y empezando para que así todo tenga sentido. una captura
+ de pantalla.
+ -->
